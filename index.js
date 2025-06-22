@@ -1,7 +1,8 @@
-const origUrl = "https://localhost:3000/posts";
+const origUrl = "http://localhost:3000/posts";
 
 const form = document.getElementById("new-post-form");
 const postsList = document.getElementById("posts");
+const postDetails = document.getElementById("post-details");
 
 // Function to fetch and display posts
 function displayPosts() {
