@@ -1,9 +1,14 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "title": "Simple Blog",
-            "content": "This is my first post!"
-        }
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "Simple Blog",
+      "content": "This is my first post!"
+    },
+    {
+      "title": "fortnite",
+      "content": "online game",
+      "id": 2
+    }
+  ]
 }

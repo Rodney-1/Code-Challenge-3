@@ -35,7 +35,7 @@ form.addEventListener("submit", (event) => {
         content: document.getElementById("post-content").value
     };
 
-    fetch(origUrl, {
+    fetch(origin1, {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
