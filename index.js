@@ -1,4 +1,4 @@
-const origUrl = "http://localhost:3000/posts";
+const origin1 = "http://localhost:3000/posts";
 
 const form = document.getElementById("new-post-form");
 const postsList = document.getElementById("posts");
@@ -6,7 +6,7 @@ const postDetails = document.getElementById("post-details");
 
 // Function to fetch and display posts
 function displayPosts() {
-    fetch(origUrl)
+    fetch(origin1)
         .then(response => response.json())
         .then(posts => {
             postsList.innerHTML = ""; // Clear existing posts
